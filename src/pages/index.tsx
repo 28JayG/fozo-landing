@@ -1,3 +1,4 @@
+import DownloadAppSection from '@/components/download-app-section/download-app-section.component';
 import Header from '@/components/header/header.component';
 import Hero from '@/components/hero/hero.component';
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className='pb-[540px] w-full h-full'>
         <Header />
         <Hero />
+        <DownloadAppSection />
       </div>
       <div className='absolute left-0 bottom-0 h-[540px]'></div>
     </div>
