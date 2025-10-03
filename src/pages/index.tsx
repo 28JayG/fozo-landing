@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import Hero from '@/components/hero/hero.component';
-import DownloadApp from '@/components/hero/download-app/download-app.component';
+import DownloadApp from '@/components/download-app/download-app.component';
+import MoreThanFood from '@/components/more-than-food/more-than-food.component';
 
 const interFont = Inter({
   variable: '--font-inter',
@@ -20,6 +21,7 @@ export default function Home() {
         <div className='pb-footer h-full w-full'>
           <Hero />
           <DownloadApp />
+          <MoreThanFood />
         </div>
         <div className='h-footer w-full absolute bottom-0 left-0'></div>
       </div>

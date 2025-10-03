@@ -9,7 +9,7 @@ const DownloadApp = () => {
           <span className='text-brand-orange'>save money and the planet</span>
         </p>
         <div className='flex gap-11'>
-          <DownloadAppCard appLink='' platform='iOs' qrImageLink='' />
+          <DownloadAppCard appLink='' platform='iOS' qrImageLink='' />
           <DownloadAppCard appLink='' platform='Android' qrImageLink='' />
         </div>
       </div>
