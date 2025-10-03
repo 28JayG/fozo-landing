@@ -4,6 +4,7 @@ import Hero from '@/components/hero/hero.component';
 import DownloadApp from '@/components/download-app/download-app.component';
 import MoreThanFood from '@/components/more-than-food/more-than-food.component';
 import HowToFozo from '@/components/how-to-fozo/how-to-fozo.component';
+import ReadyToBecomeAHero from '@/components/ready-to-become-hero/ready-to-become-hero.component';
 
 const interFont = Inter({
   variable: '--font-inter',
@@ -24,6 +25,7 @@ export default function Home() {
           <DownloadApp />
           <MoreThanFood />
           <HowToFozo />
+          <ReadyToBecomeAHero />
         </div>
         <div className='h-footer w-full absolute bottom-0 left-0'></div>
       </div>

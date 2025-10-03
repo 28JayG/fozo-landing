@@ -21,19 +21,19 @@ const HowToFozo = () => {
 
       <div className='grid grid-cols-3 max-width-container gap-9 pb-20'>
         <StepCard
-          description='Open the  app to see real-time food bags from nearby eateries.'
+          description='Open the app to see real-time food bags from nearby eateries.'
           title='Browse Surprise Bags'
-          img=''
+          img='https://i.ibb.co/zVL5LhNm/Img-1.png'
         />
         <StepCard
           description='Select your bag, select a lunch/dinner time, and pay securely.'
           title='Order & Pay'
-          img=''
+          img='https://i.ibb.co/7tNSQ7VJ/Img-2.png'
         />
         <StepCard
           description='Sit back as your Fozo bag arrives at your doorstep.'
           title='Get Delivery & Dig In'
-          img=''
+          img='https://i.ibb.co/C3tJh5jV/Img-3.png'
         />
       </div>
 
