@@ -13,6 +13,7 @@
   --color-secondary: oklch(0.9615 0.0321 76.46);
   --color-light-green: oklch(0.8339 0.1767 132.53);
   --color-brand-orange: oklch(0.723 0.1896 50.5);
+  --color-brand-yellow: #f4cd52;
 }
 
 html,
