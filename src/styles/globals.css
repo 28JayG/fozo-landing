@@ -1,13 +1,17 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import 'tailwindcss';
+
+@theme inline {
+  --font-main: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --font-black-hans: 'Black Han Sans';
+
+  --spacing-footer: 542px;
+  
+  --color-primary: oklch(0.3675 0.0626 196.35);
+  --color-secondary: oklch(0.9615 0.0321 76.46);
+  --color-light-green: oklch(0.8339 0.1767 132.53);
 }
 
 html,
@@ -17,17 +21,13 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -35,8 +35,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.max-width-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
