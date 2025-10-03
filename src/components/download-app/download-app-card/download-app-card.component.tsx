@@ -7,6 +7,31 @@ interface Props {
 }
 
 const DownloadAppCard: FC<Props> = ({ platform, appLink, qrImageLink }) => {
+  const getPlatformIcon = () => {
+    switch (platform.toLowerCase()) {
+      case 'android':
+        return (
+          <div className='w-6 h-6'>
+            <img
+              src='android-icon.png'
+              className='w-full h-full object-contain'
+              alt=''
+            />
+          </div>
+        );
+      case 'ios':
+        return (
+          <div className='w-6 h-6'>
+            <img
+              src='apple-icon.png'
+              className='w-full h-full object-contain'
+              alt=''
+            />
+          </div>
+        );
+    }
+  };
+
   return (
     <div className='w-64 h-64 shrink-0 rounded-3xl bg-white/10 flex flex-col gap-5 px-6 pt-8 relative'>
       <p className='text-2xl text-white font-bold'>For {platform}</p>
@@ -20,7 +45,9 @@ const DownloadAppCard: FC<Props> = ({ platform, appLink, qrImageLink }) => {
           src={appLink}
         />
       </div>
-      <div className='rounded-full w-16 h-16 border-4 border-primary bg-white/0 absolute -bottom-1 -right-1'></div>
+      <div className='rounded-full w-16 h-16 border-4 border-primary bg-white/0 absolute -bottom-1 -right-1 flex items-center justify-center'>
+        {getPlatformIcon()}
+      </div>
     </div>
   );
 };

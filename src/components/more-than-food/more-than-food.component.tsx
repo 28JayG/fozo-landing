@@ -1,10 +1,10 @@
 const MoreThanFood = () => {
   return (
     <section className='w-full bg-secondary pt-32 h-[848px] relative'>
-      <div className='absolute top-0 right-0'>
+      <div className='absolute top-4 -right-16'>
         <img alt='' className='w-full h-full' src='pattern.svg' />
       </div>
-      <div className='absolute bottom-0 left-0'>
+      <div className='absolute bottom-8 -left-28'>
         <img alt='' className='w-full h-full' src='pattern.svg' />
       </div>
 
