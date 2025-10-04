@@ -2,7 +2,10 @@ import StepCard from './step-card/step-card.component';
 
 const HowToFozo = () => {
   return (
-    <section className='w-full bg-primary pt-32 pb-16 relative flex flex-col items-center'>
+    <section
+      id='howItWorks'
+      className='w-full bg-primary pt-32 pb-16 relative flex flex-col items-center'
+    >
       <div className='absolute top-4 -right-16'>
         <img alt='' className='w-full h-full' src='pattern.svg' />
       </div>

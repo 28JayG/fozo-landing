@@ -14,6 +14,21 @@ export default function Document() {
           href='https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap'
           rel='stylesheet'
         ></link>
+        <link
+          href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined'
+          rel='stylesheet'
+        />
+        <style>
+          {`
+              .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+              }
+          `}
+        </style>
       </Head>
       <body>
         <Main />

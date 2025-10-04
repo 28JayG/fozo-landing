@@ -26,7 +26,7 @@ const FAQCard: FC<Props> = ({ question, answer, defaultOpen }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
-    <div className='bg-white flex flex-col p-8 rounded-2xl shadow-2xl'>
+    <div className='bg-white flex flex-col p-8 rounded-2xl shadow-lg'>
       <div
         className='flex items-center justify-between'
         onClick={() => setIsOpen(!isOpen)}

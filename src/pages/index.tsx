@@ -6,6 +6,7 @@ import MoreThanFood from '@/components/more-than-food/more-than-food.component';
 import HowToFozo from '@/components/how-to-fozo/how-to-fozo.component';
 import ReadyToBecomeAHero from '@/components/ready-to-become-hero/ready-to-become-hero.component';
 import FAQ from '@/components/faq/faq.component';
+import Footer from '@/components/footer/footer.component';
 
 const interFont = Inter({
   variable: '--font-inter',
@@ -29,7 +30,9 @@ export default function Home() {
           <FAQ />
           <ReadyToBecomeAHero />
         </div>
-        <div className='h-footer w-full absolute bottom-0 left-0'></div>
+        <div className='h-footer w-full absolute bottom-0 left-0'>
+          <Footer />
+        </div>
       </div>
     </>
   );

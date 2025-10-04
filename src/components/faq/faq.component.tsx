@@ -33,7 +33,10 @@ const faqs = [
 
 const FAQ = () => {
   return (
-    <section className='w-full bg-secondary pt-32 pb-16 relative flex flex-col items-center'>
+    <section
+      id='faq'
+      className='w-full bg-secondary pt-32 pb-16 relative flex flex-col items-center'
+    >
       <div className='flex flex-col items-center w-full'>
         <p className='font-bold text-2xl text-black'>
           Frequently asked Questions
