@@ -3,31 +3,33 @@ import FAQCard from './faq-card/faq-card.component';
 const faqs = [
   {
     question: 'What is a mystery bag?',
-    answer: '',
+    answer:
+      'A Mystery Bag is a surprise meal you get at a big discount from your favorite restaurants and brands.',
   },
   {
-    question: 'What is a mystery bag?',
-    answer: '',
+    question: 'How does Fozo work?',
+    answer:
+      'Restaurants and brands list limited-time offers on Fozo every day. You can browse, book, and pick up your favorite deals directly through the app.',
   },
   {
-    question: 'What is a mystery bag?',
-    answer: '',
+    question: 'Is the food fresh and safe?',
+    answer:
+      'Yes! Every item on Fozo is freshly prepared or packaged, following the same quality and hygiene standards as regular menu orders.',
   },
   {
-    question: 'What is a mystery bag?',
-    answer: '',
+    question: 'Why are the prices so low?',
+    answer:
+      'We make it easy for restaurants and brands to offer exclusive time-based discounts, giving you premium food and products at pocket-friendly prices.',
   },
   {
-    question: 'What is a mystery bag?',
-    answer: '',
+    question: 'Where is Fozo available?',
+    answer:
+      'Fozo is currently live in Bangalore — in areas like HSR, Koramangala, Marathahalli, and Whitefield — with more cities coming soon.',
   },
   {
-    question: 'What is a mystery bag?',
-    answer: '',
-  },
-  {
-    question: 'What is a mystery bag?',
-    answer: '',
+    question: 'How can my restaurant or brand join Fozo?',
+    answer:
+      'Just fill out the Partner With Us form on our website. Our team will connect with you to get your store live and ready to offer deals within days.',
   },
 ];
 
@@ -46,13 +48,13 @@ const FAQ = () => {
         </p>
       </div>
       <div className='max-width-container bg-[#FAE7CC] rounded-3xl py-20 px-11 flex flex-col gap-6 xl:flex-row'>
-        <div className='flex flex-col gap-6 grow'>
+        <div className='flex flex-col gap-6 grow basis-1/2'>
           {faqs.slice(0, faqs.length / 2).map((faq) => (
             <FAQCard {...faq} />
           ))}
         </div>
-        <div className='flex flex-col gap-6 grow'>
-          {faqs.slice(faqs.length / 2 + 1).map((faq) => (
+        <div className='flex flex-col gap-6 grow basis-1/2'>
+          {faqs.slice(faqs.length / 2).map((faq) => (
             <FAQCard {...faq} />
           ))}
         </div>

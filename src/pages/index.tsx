@@ -7,6 +7,7 @@ import HowToFozo from '@/components/how-to-fozo/how-to-fozo.component';
 import ReadyToBecomeAHero from '@/components/ready-to-become-hero/ready-to-become-hero.component';
 import FAQ from '@/components/faq/faq.component';
 import Footer from '@/components/footer/footer.component';
+import Header from '@/components/header/header.component';
 
 const interFont = Inter({
   variable: '--font-inter',
@@ -23,6 +24,7 @@ export default function Home() {
       </Head>
       <div className='min-h-screen w-screen max-w-full relative'>
         <div className='pb-footer h-full w-full'>
+          <Header />
           <Hero />
           <DownloadApp />
           <MoreThanFood />
