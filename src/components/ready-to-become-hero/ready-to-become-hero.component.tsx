@@ -1,7 +1,7 @@
 const ReadyToBecomeAHero = () => {
   return (
-    <section className='w-full bg-secondary pt-32 h-[848px] relative flex flex-col'>
-      <p className='font-black-hans font-bold text-[44px] text-center text-primary pb-8'>
+    <section className='w-full bg-secondary pt-0 lg:pt-32 h-[384px] lg:h-[848px] relative flex flex-col'>
+      <p className='font-black-hans font-bold text-2xl lg:text-[44px] text-center text-primary pb-5 lg:pb-8'>
         Ready to become a Food Hero?
       </p>
 
@@ -11,7 +11,7 @@ const ReadyToBecomeAHero = () => {
 
       <img
         src='phone.png'
-        className='h-[480px] object-contain absolute -translate-x-1/2 left-1/2 bottom-0 w-full pr-16'
+        className='lg:h-[480px] object-contain absolute -translate-x-1/2 left-1/2 bottom-0 w-full lg:pr-16 px-4 lg:px-0'
         alt='save earth'
       />
     </section>
