@@ -26,7 +26,7 @@ export default function Home() {
         <div className='pb-footer h-full w-full'>
           {/* <Header /> */}
           <Hero />
-          {/* <DownloadApp /> */}
+          <DownloadApp />
           {/* <MoreThanFood /> */}
           {/* <HowToFozo /> */}
           {/* <FAQ /> */}

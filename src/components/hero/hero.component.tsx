@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section
-      className='font-main font-bold flex flex-col-reverse h-[748px] text-white relative'
+      className='font-main font-bold flex flex-col-reverse h-screen max-h-[748px] text-white relative'
       style={{
         backgroundImage: 'url(hero.gif)',
         backgroundSize: 'cover',
