@@ -47,7 +47,7 @@ const FAQ = () => {
           Most Asked Questions
         </p>
       </div>
-      <div className='max-width-container bg-[#FAE7CC] rounded-3xl py-20 px-11 flex flex-col gap-6 xl:flex-row'>
+      <div className='max-width-container bg-[#FAE7CC] rounded-3xl py-20! px-11! flex flex-col gap-6 xl:flex-row'>
         <div className='flex flex-col gap-6 grow basis-1/2'>
           {faqs.slice(0, faqs.length / 2).map((faq) => (
             <FAQCard key={faq.question} {...faq} />
