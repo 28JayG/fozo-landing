@@ -2,8 +2,8 @@ import { ExternalLinks } from '@/constants/links';
 
 const Footer = () => {
   return (
-    <footer className='w-full h-full flex flex-col justify-between pt-32 bg-primary'>
-      <div className='max-width-container flex justify-between gap-5'>
+    <footer className='w-full h-full flex flex-col justify-between pt-16 lg:pt-32 bg-primary'>
+      <div className='max-width-container flex flex-col lg:flex-row justify-between gap-5'>
         {/* brand section */}
         <div className='flex flex-col gap-6'>
           <div className='w-20'>
@@ -26,12 +26,12 @@ const Footer = () => {
         </div>
 
         <div className='text-white flex flex-col'>
-          <h1 className='font-bold text-xl pb-9'>Product</h1>
-          <ul className='text-lg text-white/65'>
-            <li className='pb-4'>
+          <h1 className='font-bold text-base pb-5 lg:text-xl lg:pb-9'>Product</h1>
+          <ul className='text-sm lg:text-lg text-white/65'>
+            <li className='pb-2 lg:pb-4'>
               <a href='#howItWorks'>How it works</a>
             </li>
-            <li className='pb-4'>
+            <li className='pb-2 lg:pb-4'>
               <a href={ExternalLinks.partnerWithUs} target='_blank'>
                 Partner with us
               </a>
@@ -45,9 +45,9 @@ const Footer = () => {
         </div>
 
         <div className='text-white flex flex-col'>
-          <h1 className='font-bold text-xl pb-9'>Company</h1>
-          <ul className='text-lg text-white/65'>
-            <li className='pb-4'>
+          <h1 className='font-bold text-base pb-5 lg:text-xl lg:pb-9'>Company</h1>
+          <ul className='text-sm lg:text-lg text-white/65'>
+            <li className='pb-2 lg:pb-4'>
               <a href={ExternalLinks.contactUs} target='_blank'>
                 Contact Us
               </a>
@@ -59,12 +59,12 @@ const Footer = () => {
         </div>
 
         <div className='text-white flex flex-col'>
-          <h1 className='font-bold text-xl pb-9'>Support</h1>
-          <ul className='text-lg text-white/65'>
-            <li className='pb-4'>
+          <h1 className='font-bold text-base pb-5 lg:text-xl lg:pb-9'>Support</h1>
+          <ul className='text-sm lg:text-lg text-white/65'>
+            <li className='pb-2 lg:pb-4'>
               <a href='#faq'>FAQ's</a>
             </li>
-            <li className='pb-4'>
+            <li className='pb-2 lg:pb-4'>
               <a href={ExternalLinks.contactUs} target='_blank'>
                 Help Center
               </a>
@@ -73,9 +73,9 @@ const Footer = () => {
         </div>
 
         <div className='text-white flex flex-col'>
-          <h1 className='font-bold text-xl pb-9'>Contact Us</h1>
-          <ul className='text-lg text-white/65'>
-            <li className='pb-4'>
+          <h1 className='font-bold text-base pb-5 lg:text-xl lg:pb-9'>Contact Us</h1>
+          <ul className='text-sm lg:text-lg text-white/65'>
+            <li className='pb-2 lg:pb-4'>
               <a
                 href='mailto:admin@getfozo.in'
                 className='flex gap-2 items-center'
@@ -84,7 +84,7 @@ const Footer = () => {
                 admin@getfozo.in
               </a>
             </li>
-            <li className='pb-4'>
+            <li className='pb-2 lg:pb-4'>
               <a className='flex gap-2 items-center' href='tel:+91 9899879876'>
                 <span className='material-symbols-outlined'>call</span> +91
                 9899879876
@@ -100,9 +100,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='max-width-container flex justify-between gap-5 border-t py-6 border-white/65'>
-        <p className='text-lg text-white/65'>Copyright © getfozo.in</p>
-        <p className='text-lg text-white/65'>
+      <div className='max-width-container flex flex-col lg:flex-row justify-between gap-3 lg:gap-5 border-t py-3! lg:py-6! border-white/65'>
+        <p className='text-sm lg:text-lg text-white/65'>Copyright © getfozo.in</p>
+        <p className='text-sm lg:text-lg text-white/65'>
           All Rights Reserved |{' '}
           <a href='' className='text-[#9BE05E]! underline!'>
             Terms and Conditions

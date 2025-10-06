@@ -23,7 +23,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='min-h-screen w-screen max-w-full relative'>
-        <div className='pb-footer h-full w-full'>
+        <div className='pb-[847px] lg:pb-footer h-full w-full'>
           {/* <Header /> */}
           <Hero />
           <DownloadApp />
@@ -32,8 +32,8 @@ export default function Home() {
           <FAQ />
           <ReadyToBecomeAHero />
         </div>
-        <div className='h-footer w-full absolute bottom-0 left-0'>
-          {/* <Footer /> */}
+        <div className='h-[847px] lg:h-footer w-full absolute bottom-0 left-0'>
+          <Footer />
         </div>
       </div>
     </>
