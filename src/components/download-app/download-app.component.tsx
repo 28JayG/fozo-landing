@@ -9,8 +9,8 @@ const DownloadApp = () => {
           <span className='text-brand-orange'>save money and the planet</span>
         </p>
         <div className='flex flex-col lg:flex-row gap-11'>
-          <DownloadAppCard appLink='' platform='iOS' qrImageLink='' />
-          <DownloadAppCard appLink='' platform='Android' qrImageLink='' />
+          <DownloadAppCard appLink='' platform='iOS' qrImageLink='https://i.ibb.co/4ydGXDK/Fozo-Form-QR.png' />
+          <DownloadAppCard appLink='' platform='Android' qrImageLink='https://i.ibb.co/4ydGXDK/Fozo-Form-QR.png' />
         </div>
       </div>
     </section>
