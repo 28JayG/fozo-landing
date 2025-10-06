@@ -4,25 +4,25 @@ const HowToFozo = () => {
   return (
     <section
       id='howItWorks'
-      className='w-full bg-primary pt-32 pb-16 relative flex flex-col items-center'
+      className='w-full bg-primary pt-16 lg:pt-32 pb-16 relative flex flex-col items-center'
     >
-      <div className='absolute top-4 -right-16'>
+      <div className='absolute top-4 -right-16 hidden lg:block'>
         <img alt='' className='w-full h-full' src='pattern.svg' />
       </div>
-      <div className='absolute bottom-8 -left-28'>
+      <div className='absolute bottom-8 -left-28 hidden lg:block'>
         <img alt='' className='w-full h-full' src='pattern.svg' />
       </div>
 
       <div className='max-width-container pb-36'>
         <div className='flex flex-col items-center w-full'>
-          <p className='font-bold text-2xl text-white'>How does it work</p>
-          <p className='font-black-hans font-bold text-[44px] text-brand-yellow'>
+          <p className='font-bold text-xl lg:text-2xl text-center text-white'>How does it work</p>
+          <p className='font-black-hans text-center font-bold text-3xl lg:text-[44px] text-brand-yellow'>
             How to Fozo it
           </p>
         </div>
       </div>
 
-      <div className='grid grid-cols-3 max-width-container gap-9 pb-20'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 max-width-container gap-9 py-6! lg:pt-0 lg:pb-20!'>
         <StepCard
           description='Open the app to see real-time food bags from nearby eateries.'
           title='Browse Surprise Bags'

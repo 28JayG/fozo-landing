@@ -28,7 +28,7 @@ export default function Home() {
           <Hero />
           <DownloadApp />
           <MoreThanFood />
-          {/* <HowToFozo /> */}
+          <HowToFozo />
           {/* <FAQ /> */}
           {/* <ReadyToBecomeAHero /> */}
         </div>
