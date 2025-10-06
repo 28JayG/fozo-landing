@@ -29,7 +29,7 @@ export default function Home() {
           <DownloadApp />
           <MoreThanFood />
           <HowToFozo />
-          {/* <FAQ /> */}
+          <FAQ />
           {/* <ReadyToBecomeAHero /> */}
         </div>
         <div className='h-footer w-full absolute bottom-0 left-0'>

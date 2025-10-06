@@ -37,25 +37,25 @@ const FAQ = () => {
   return (
     <section
       id='faq'
-      className='w-full bg-secondary pt-32 pb-16 relative flex flex-col items-center'
+      className='w-full bg-secondary pt-16 lg:pt-32 pb-16 relative flex flex-col items-center'
     >
-      <div className='flex flex-col items-center w-full'>
-        <p className='font-bold text-2xl text-black'>
+      <div className='flex flex-col items-center w-full text-center px-4'>
+        <p className='font-bold text-xl lg:text-2xl text-black'>
           Frequently asked Questions
         </p>
-        <p className='font-black-hans font-bold text-[44px] text-brand-orange mb-16'>
+        <p className='font-black-hans font-bold text-2xl lg:text-[44px] text-brand-orange mb-8 lg:mb-16'>
           Most Asked Questions
         </p>
       </div>
       <div className='max-width-container bg-[#FAE7CC] rounded-3xl py-20 px-11 flex flex-col gap-6 xl:flex-row'>
         <div className='flex flex-col gap-6 grow basis-1/2'>
           {faqs.slice(0, faqs.length / 2).map((faq) => (
-            <FAQCard {...faq} />
+            <FAQCard key={faq.question} {...faq} />
           ))}
         </div>
         <div className='flex flex-col gap-6 grow basis-1/2'>
           {faqs.slice(faqs.length / 2).map((faq) => (
-            <FAQCard {...faq} />
+            <FAQCard key={faq.question} {...faq} />
           ))}
         </div>
       </div>
