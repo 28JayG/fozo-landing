@@ -3,7 +3,7 @@ import { ExternalLinks } from '@/constants/links';
 const Header = () => {
   return (
     <header className='fixed top-0 w-full z-10'>
-      <div className='max-width-container border-b border-white/65 flex items-center justify-between py-5'>
+      <div className='max-width-container border-b border-white/65 flex items-center justify-between py-5!'>
         <div className='w-20'>
           <a href='/'>
             <img src='brand-full.png' className='w-full h-full' alt='Fozo' />

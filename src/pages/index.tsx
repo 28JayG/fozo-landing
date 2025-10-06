@@ -24,16 +24,16 @@ export default function Home() {
       </Head>
       <div className='min-h-screen w-screen max-w-full relative'>
         <div className='pb-footer h-full w-full'>
-          <Header />
+          {/* <Header /> */}
           <Hero />
-          <DownloadApp />
-          <MoreThanFood />
-          <HowToFozo />
-          <FAQ />
-          <ReadyToBecomeAHero />
+          {/* <DownloadApp /> */}
+          {/* <MoreThanFood /> */}
+          {/* <HowToFozo /> */}
+          {/* <FAQ /> */}
+          {/* <ReadyToBecomeAHero /> */}
         </div>
         <div className='h-footer w-full absolute bottom-0 left-0'>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </>

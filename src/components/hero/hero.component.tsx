@@ -9,11 +9,11 @@ const Hero = () => {
       }}
     >
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/20" ></div>
-      <div className='flex flex-col max-width-container pb-56 relative'>
-        <p className='text-3xl'>Bigger bites,</p>
-        <p className='text-3xl'>
+      <div className='flex flex-col max-width-container pb-24! lg:pb-56! relative'>
+        <p className='text-2xl lg:text-3xl'>Bigger bites,</p>
+        <p className='text-2xl lg:text-3xl'>
           -Pocket{' '}
-          <span className='font-black-hans text-[44px] text-light-green'>
+          <span className='font-black-hans text-3xl lg:text-[44px] text-light-green'>
             Friendly price!!
           </span>
         </p>
