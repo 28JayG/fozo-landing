@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <div className='min-h-screen w-screen max-w-full relative'>
         <div className='pb-[847px] lg:pb-footer h-full w-full'>
-          {/* <Header /> */}
+          <Header />
           <Hero />
           <DownloadApp />
           <MoreThanFood />

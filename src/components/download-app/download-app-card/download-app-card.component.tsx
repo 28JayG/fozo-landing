@@ -38,11 +38,11 @@ const DownloadAppCard: FC<Props> = ({ platform, appLink, qrImageLink }) => {
       <button className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-light-green text-primary'>
         Download Now
       </button>
-      <div className='bg-white rounded-2xl w-20 h-20 p-5'>
+      <div className='bg-white rounded-2xl w-20 h-20 overflow-hidden'>
         <img
           className='w-full h-full object-contain'
           alt='app qr'
-          src={appLink}
+          src={qrImageLink}
         />
       </div>
       <div className='rounded-full w-16 h-16 border-4 border-primary bg-white/0 absolute -bottom-1 -right-1 flex items-center justify-center'>
