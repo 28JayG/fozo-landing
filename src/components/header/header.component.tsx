@@ -2,7 +2,7 @@ import { ExternalLinks } from '@/constants/links';
 
 const Header = () => {
   return (
-    <header className='fixed top-0 w-full'>
+    <header className='fixed top-0 w-full z-10'>
       <div className='max-width-container border-b border-white/65 flex items-center justify-between py-5'>
         <div className='w-20'>
           <a href='/'>
@@ -10,8 +10,8 @@ const Header = () => {
           </a>
         </div>
 
-        <div className='flex gap-3'>
-          <ul className='flex gap-3 text-white/65 text-lg'>
+        <div className='flex items-center gap-3'>
+          <ul className='flex gap-3 text-white text-lg'>
             <li>
               <a href='/'>Home</a>
             </li>
@@ -26,11 +26,11 @@ const Header = () => {
             <a
               href={ExternalLinks.joinAsStore}
               target='_blank'
-              className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-light-green text-primary'
+              className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-light-green! text-primary!'
             >
               Join as Store
             </a>
-            <button className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-light-green text-primary'>
+            <button className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-light-green text-primary!'>
               Get the App
             </button>
           </div>
