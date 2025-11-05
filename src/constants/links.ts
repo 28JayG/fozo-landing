@@ -4,5 +4,6 @@ export const ExternalLinks = {
   contactUs: 'https://forms.gle/k3Vess9RaGwsvhcD8',
   blogs: 'https://medium.com/@fozoIndia',
   partnerWithUs: 'https://forms.gle/z3qz8dEbuaFafRE7A',
-  joinAsStore: 'https://forms.gle/z3qz8dEbuaFafRE7A'
+  joinAsStore: 'https://forms.gle/z3qz8dEbuaFafRE7A',
+  joinWaitlist: 'https://forms.gle/VpArytBU9pswpWSi8',
 };

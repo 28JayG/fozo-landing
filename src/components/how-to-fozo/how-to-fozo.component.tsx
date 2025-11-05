@@ -1,3 +1,4 @@
+import { ExternalLinks } from '@/constants/links';
 import StepCard from './step-card/step-card.component';
 
 const HowToFozo = () => {
@@ -15,7 +16,9 @@ const HowToFozo = () => {
 
       <div className='max-width-container pb-36'>
         <div className='flex flex-col items-center w-full'>
-          <p className='font-bold text-xl lg:text-2xl text-center text-white'>How does it work</p>
+          <p className='font-bold text-xl lg:text-2xl text-center text-white'>
+            How does it work
+          </p>
           <p className='font-black-hans text-center font-bold text-3xl lg:text-[44px] text-brand-yellow'>
             How to Fozo it
           </p>
@@ -40,9 +43,15 @@ const HowToFozo = () => {
         />
       </div>
 
-      <button className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-brand-orange text-white'>
+      {/* TODO: remove this later */}
+      <a href={ExternalLinks.joinWaitlist} target='_blank'>
+        <button className='cursor-pointer w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-brand-orange text-white'>
+          Join Waitlist
+        </button>
+      </a>
+      {/* <button className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-brand-orange text-white'>
         Get the App
-      </button>
+      </button> */}
     </section>
   );
 };
