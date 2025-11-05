@@ -12,7 +12,7 @@ const MoreThanFood = () => {
         <div className='flex flex-col items-center w-full'>
           <p className='font-bold text-xl lg:text-2xl text-center'>More than just</p>
           <p className='font-black-hans font-bold text-center text-3xl lg:text-[44px] text-[#055F19]'>
-            ordering just food
+            ordering fresh food
           </p>
         </div>
       </div>
