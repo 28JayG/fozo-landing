@@ -13,13 +13,13 @@ const Footer = () => {
             Order surplus meal from your go to spots at 50% off
           </p>
           <div className='flex items-center gap-5'>
-            <a href='' className=''>
+            <a href={ExternalLinks.twitter} className=''>
               <img alt='twitter-link' src='twitter.png' />
             </a>
-            <a href='' className=''>
+            <a href={ExternalLinks.instagram} className=''>
               <img alt='instagram-link' src='instagram.png' />
             </a>
-            <a href='' className=''>
+            <a href={ExternalLinks.youtube} className=''>
               <img alt='youtube-link' src='youtube.png' />
             </a>
           </div>
@@ -104,11 +104,11 @@ const Footer = () => {
         <p className='text-sm lg:text-lg text-white/65'>Copyright © getfozo.in</p>
         <p className='text-sm lg:text-lg text-white/65'>
           All Rights Reserved |{' '}
-          <a href='' className='text-[#9BE05E]! underline!'>
+          <a href={ExternalLinks.tnc} className='text-[#9BE05E]! underline!'>
             Terms and Conditions
           </a>{' '}
           |{' '}
-          <a href='' className='text-[#9BE05E]! underline!'>
+          <a href={ExternalLinks.pvp} className='text-[#9BE05E]! underline!'>
             Privacy Policy
           </a>
         </p>
