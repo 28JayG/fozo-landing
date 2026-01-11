@@ -30,7 +30,7 @@ Save money, reduce surplus, and eat smarter with Fozo.'
         <div className='pb-[847px] lg:pb-footer h-full w-full'>
           <Header />
           <Hero />
-          {/* <DownloadApp /> */}
+          <DownloadApp />
           <MoreThanFood />
           <HowToFozo />
           <FAQ />

@@ -54,15 +54,11 @@ const Header = () => {
           </ul>
           <div className='flex gap-3'>
             <a
-              href={ExternalLinks.joinWaitlist}
-              target='_blank'
+              href='#get-apps'
               className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-light-green! text-primary!'
             >
-              Join Waitlist
-            </a>
-            {/* <button className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-light-green text-primary!'>
               Get the App
-            </button> */}
+            </a>
           </div>
         </div>
       </div>
