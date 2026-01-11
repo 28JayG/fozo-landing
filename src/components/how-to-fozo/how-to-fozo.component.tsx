@@ -43,15 +43,11 @@ const HowToFozo = () => {
         />
       </div>
 
-      {/* TODO: remove this later */}
-      <a href={ExternalLinks.joinWaitlist} target='_blank'>
-        <button className='cursor-pointer w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-brand-orange text-white'>
-          Join Waitlist
+      <a href='#get-apps'>
+        <button className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-brand-orange text-white'>
+          Get the App
         </button>
       </a>
-      {/* <button className='w-min whitespace-nowrap px-3 py-2 rounded-2xl text-sm bg-brand-orange text-white'>
-        Get the App
-      </button> */}
     </section>
   );
 };
